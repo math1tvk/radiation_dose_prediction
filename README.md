@@ -4,7 +4,7 @@ This project is going to contribute on dose prediction for radiation therapy. Ev
 
 
 # Acknowledgements
-The project template is based on project by Ahmed Hamada Mohamed Kamel El-Hinidy from here (https://github.com/Ahmkel/Keras-Project-Template)
+The project template is based on Keras Project Template by Ahmed Hamada Mohamed Kamel El-Hinidy (https://github.com/Ahmkel/Keras-Project-Template)
 
 <!---
 # Keras Project Template [![CometML](https://img.shields.io/badge/comet.ml-track-brightgreen.svg)](https://www.comet.ml)
