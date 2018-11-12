@@ -3,8 +3,8 @@
 This project is going to contribute on dose prediction for radiation therapy. Eventually, it is intended to help experts in the IMRT planning process.
 
 
-
-Following notes are borrowed from a Keras template project by Mahmoud Khaled from here (https://github.com/MrGemy95/Tensorflow-Project-Template)
+# Acknowledgements
+The project template is based on project by Ahmed Hamada Mohamed Kamel El-Hinidy from here (https://github.com/Ahmkel/Keras-Project-Template)
 
 <!---
 # Keras Project Template [![CometML](https://img.shields.io/badge/comet.ml-track-brightgreen.svg)](https://www.comet.ml)
