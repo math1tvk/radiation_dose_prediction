@@ -1,4 +1,13 @@
-﻿# Keras Project Template [![CometML](https://img.shields.io/badge/comet.ml-track-brightgreen.svg)](https://www.comet.ml)
+
+# Radiation dose prediction 
+This project is going to contribute on dose prediction for radiation therapy. Eventually, it is intended to help experts in the IMRT planning process.
+
+
+
+Following notes are borrowed from Keras template from here (https://github.com/MrGemy95/Tensorflow-Project-Template)
+
+
+# Keras Project Template [![CometML](https://img.shields.io/badge/comet.ml-track-brightgreen.svg)](https://www.comet.ml)
 
 A project template to simplify building and training deep learning models using Keras.
 
