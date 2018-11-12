@@ -4,7 +4,7 @@ This project is going to contribute on dose prediction for radiation therapy. Ev
 
 
 
-Following notes are borrowed from Keras template from here (https://github.com/MrGemy95/Tensorflow-Project-Template)
+Following notes are borrowed from a Keras template project by Mahmoud Khaled from here (https://github.com/MrGemy95/Tensorflow-Project-Template)
 
 
 # Keras Project Template [![CometML](https://img.shields.io/badge/comet.ml-track-brightgreen.svg)](https://www.comet.ml)
