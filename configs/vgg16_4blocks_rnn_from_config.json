@@ -1,0 +1,51 @@
+{
+  "exp": {
+    "name": "vgg16_4blocks_config"
+  },
+  "data_loader": {
+    "name": "prostate_dist_dvh_data_loader.ProstateDistDvhDataLoader",
+    "h5py_dir": "/Users/mtavako1/Documents/Research/__Radiation_Therapy/Data/HI_Lab_ProstatPlanData_v1/PyData/case_216",
+    "organ": "bladder",
+    "x_name": "distance3d",
+    "x_slices": 5,
+    "x_groupname": "data_X_ch3_patient",
+    "y_groupname": "data_Y_patient"
+  },
+  "model":{
+    "name": "transfer_4block_vgg16_model.Transfer4BlockVGG16Model",
+    "learning_rate": 0.000001,
+    "optimizer": "Adam",
+    "loss":"binary_crossentropy"
+  },
+  "trainer":{
+    "name": "simple_trainer.SimpleTrainer",
+    "num_epochs": 2,
+    "shuffle": false,
+    "batch_size": 6,
+    "validation_split":0.1,
+    "verbose_training": true
+  },
+  "cross_validation":{
+    "n_splits": 3,
+    "shuffle": true,
+    "random_state": 756732
+  },
+  "callbacks":{
+    "checkpoint_monitor": "val_loss",
+    "checkpoint_mode": "min",
+    "checkpoint_save_best_only": true,
+    "checkpoint_save_weights_only": true,
+    "checkpoint_verbose": false,
+    "reducelronplateau_monitor": "val_loss",
+    "reducelronplateau_min_delta": 0.0001,
+    "reducelronplateau_patience": 3,
+    "reducelronplateau_verbose": true,
+    "reducelronplateau_min_lr" : 0.0000001,
+    "earlystopping_monitor": "val_loss",
+    "earlystopping_min_delta": 0.00001,
+    "earlystopping_patience": 10,
+    "earlystopping_verbose": true,
+    "earlystopping_restore_best_weights": true,
+    "tensorboard_write_graph": true
+  }
+}
